@@ -1,0 +1,11 @@
+1 -     Create html for page first. 
+2 -     Basic structure is two sections split using flex row
+2.1 -   First section has H1 and logo with large background image, uses flex column
+2.2 -   Second section has form and is split into two parts (form area and button area),  
+        uses flex column
+2.2.1 - First part has signup text and form details
+2.2.2 - Second part has button and log in prompt
+3 -     Create form signup text
+4 -     Create controls for relevant details (name, surname, email etc.)
+5 -     Create button
+6 -     Create log in text and button
