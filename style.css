@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'dalekpinpoint';
+    src:
+        url(./dalekpinpointbold-webfont.woff2) format(woff2),
+        url(./dalekpinpointbold-webfont.woff) format(woff);
+        font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'romanica';
+    src:
+        url(./romanica-webfont.woff2) format(woff2),
+        url(./romanica-webfont.woff) format(woff);
+        font-weight: normal;
+        font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font: 4rem 'dalekpinpoint';
+    align-self: center;
+}
+
+p {
+    font: 1.3rem 'romanica';
+
+}
+
