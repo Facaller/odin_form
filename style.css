@@ -20,13 +20,42 @@
     box-sizing: border-box;
 }
 
+body, html {
+    display: flex;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+section:last-of-type > div {
+    padding: 3rem;
+}
+
+div:nth-child(2) {
+    background-color: #ffffff;
+}
+
 h1 {
     font: 4rem 'dalekpinpoint';
-    align-self: center;
+    text-align: center;
 }
 
 p {
     font: 1.3rem 'romanica';
-
 }
 
+.header-bg {
+    background: rgb(0 0 0 / 40%);
+}
+
+.header {
+    background: url(./thinker.png) no-repeat;
+    flex: 2;
+}
+
+.form-area {
+    align-content: center;
+    flex: 3;
+
+    background-color: hsl(0, 0%, 98%)
+}
