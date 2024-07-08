@@ -9,3 +9,31 @@
 4 -     Create controls for relevant details (name, surname, email etc.)
 5 -     Create button
 6 -     Create log in text and button
+
+***
+
+Colour palette idea
+
+Creating a page with a Greek philosopher theme opens up a range of possibilities for using colors that evoke a sense of history, wisdom, and classical aesthetics. Here are some color suggestions that would suit a page with a Greek philosopher theme:
+
+Deep Blues: Shades of deep blue like navy (#001f3f), royal blue (#4169E1), or indigo (#4B0082) can evoke a sense of depth, wisdom, and seriousness.
+
+Warm Earth Tones: Colors like olive green (#556B2F), terracotta (#E2725B), and ochre (#CC7722) can connect with the natural surroundings and ancient artifacts often associated with Greek philosophy.
+
+Creams and Off-Whites: Light colors such as cream (#F5F5DC) or ivory (#FFFFF0) can provide a neutral background that complements other elements without overwhelming them.
+
+Gold and Rich Yellows: Gold (#FFD700) and rich yellows (#FFD700) can symbolize enlightenment, wealth, and the golden age of philosophy.
+
+Rich Reds and Maroons: Deep reds (#800000) and maroons (#800000) can evoke the robes worn by scholars and philosophers in classical times, as well as symbolize passion and intellect.
+
+Antique Whites and Grays: Antique whites (#FAEBD7) and soft grays (#F0F0F0) can provide a subdued backdrop that enhances the overall classical aesthetic.
+
+Example Color Palette:
+Here's a suggested color palette using some of these colors:
+
+Primary Color: Navy Blue (#001f3f)
+Secondary Colors:
+Olive Green (#556B2F)
+Terracotta (#E2725B)
+Gold (#FFD700)
+Cream (#F5F5DC)

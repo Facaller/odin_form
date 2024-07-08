@@ -32,7 +32,7 @@ section:last-of-type > div {
 }
 
 div:nth-child(2) {
-    background-color: #ffffff;
+    background-color: hsl(0, 0%, 100%);
 }
 
 h1 {
@@ -68,17 +68,41 @@ input {
     margin-left: 5px;
     width: 250px;
     height: 2rem;
-
+    
+    outline: none;
     font: 1.1rem 'romanica';
     box-sizing: border-box;
     border: 1px solid hsl(0, 0%, 90%);
-    border-radius: 4px;
+    border-radius: 5px;
+}
+
+input:focus, input:invalid {
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.1);
+    background: hsl(0, 0%, 99%);
 }
 
 input:focus {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background: hsl(0, 0%, 99%);
-    border-color: hsl(216, 100%, 60%);
+    border-color: hsl(211, 100%, 50%);
+}
+
+input:invalid {
+    border-color: hsl(354, 70%, 54%);
+}
+
+button {
+    padding: 10px 40px;
+    font: bold 1em 'romanica';
+    letter-spacing: .03rem;
+    border-radius: 9px;
+    border: hsl(10, 70%, 50%);
+    background-color: hsl(10, 70%, 62%);
+    cursor: pointer;
+}
+
+a {
+    color: hsl(10, 70%, 62%);
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .header {
@@ -90,4 +114,8 @@ input:focus {
     align-content: center;
     flex: 3;
     background-color: hsl(0, 0%, 98%)
+}
+
+.form-div {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
