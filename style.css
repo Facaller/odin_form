@@ -31,6 +31,14 @@ section:last-of-type > div {
     padding: 2rem 3rem;
 }
 
+section:first-of-type > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0 0 0 / 40%);
+    margin-top: 10rem;
+}
+
 div:nth-child(2) {
     background-color: hsl(0, 0%, 100%);
 }
@@ -38,9 +46,12 @@ div:nth-child(2) {
 h1 {
     font: 4rem 'dalekpinpoint';
     color: #ffffff;
-    text-align: center;
-    background: rgb(0 0 0 / 40%);
-    margin-top: 13rem;
+    margin: 0.2em 0;
+}
+
+img {
+    height: 6rem;
+    margin-right: 10px;
 }
 
 p {
